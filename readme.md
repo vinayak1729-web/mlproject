@@ -4,7 +4,7 @@ This is a general repository for a machine learning project. It serves as a star
 
 later will do add the data science automation platform
 
-contine from , time 18.42 
+contine from , time 18.42 yup
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Setup Instructions](#setup-instructions)
