@@ -30,11 +30,24 @@ To get started with this project:
    ```bash
    cd mlprojects
    ```
-3. Install dependencies (update with your specific requirements, e.g., `requirements.txt`):
+3. Make a virtual env:
+   ```bash
+    python -m venv .env
+   ```
+   if you are restricted then
+    ```bash
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+   ```
+   else
+   ```bash
+   .env\Scripts\Activate
+   ```
+
+4. Install dependencies (update with your specific requirements, e.g., `requirements.txt`):
    ```bash
    pip install -r requirements.txt
    ```
-4. Configure your environment (e.g., set up virtual environments or API keys if needed).
+5. Configure your environment (e.g., set up virtual environments or API keys if needed).
 
 ## Git Commands
 
@@ -55,7 +68,9 @@ git push -u origin main
 If you have an existing local repository and want to push it to GitHub, use these commands:
 
 ```bash
-git remote add origin https://github.com/vinayak1729-web/mlproject.gitt
+git remote add origin https://github.com/vinayak1729-web/mlproject.git
+git config --global user.email "enter your email to collab"
 git branch -M main
 git push -u origin main
+
 ```
